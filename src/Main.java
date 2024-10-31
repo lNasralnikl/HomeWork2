@@ -45,9 +45,9 @@ public class Main {
     System.out.println("Задача 4");
     a = 16;
     b = 2;
-    byte PerMinute = (byte) (a/b);
-    short h = (short) (20*PerMinute);
-    b = (short) (60*24*PerMinute);
+    byte perMinute = (byte) (a/b);
+    short h = (short) (20*perMinute);
+    b = (short) (60*24*perMinute);
     c = b*3;
     d = b*30;
     System.out.println("За 20 минут машина произвела " + h + " штук бутылок");
